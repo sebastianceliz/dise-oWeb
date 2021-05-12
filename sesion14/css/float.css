@@ -1,0 +1,27 @@
+header{
+    background-color: 
+    blueviolet;
+    height: 150px;
+}
+nav{
+    background-color: brown;
+    height: 25%;
+}
+section{
+    background-color: blue;
+    height: 50%;
+}
+
+aside{
+    background-color: burlywood;
+    height: 25%;
+}
+
+footer{
+    background-color: cornflowerblue;
+    height: 50%;
+}
+nav,aside,section,footer {
+    float: left;
+    height: 350px;
+}
