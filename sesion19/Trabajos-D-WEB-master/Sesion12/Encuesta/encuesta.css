@@ -1,0 +1,36 @@
+body{
+    border: 2px solid;
+    width: 900px;
+    height: 1000px;
+    margin-left: 200px;
+}
+
+#imagen{
+    float: left;
+    height: 1500px;
+    margin-right: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#caja1{
+    text-align: left;
+    color: blue;
+    margin-top: 5px;
+}
+#caja2{
+    margin: 5px;
+    background-color: lightblue;
+    width: 820px;
+    height: 950px;
+}
+#caja3{
+    /**background: blue;*/
+    height: 20px;
+    margin-bottom: 10px;
+    
+}
+#argumento{
+    position: absolute;
+}
+

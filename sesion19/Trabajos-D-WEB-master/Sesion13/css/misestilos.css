@@ -1,0 +1,58 @@
+
+/*h1{
+    font-size: 12px;
+    color:#81a61a;
+}
+h2{
+    font-size: 12px;
+    color: #81a61a;
+}
+/**div,h1,h2{
+    font-size: 12px;
+    color: #81a61a;
+}*/
+
+
+/**Tercer ejemplo
+div h2{
+    font-size: 60px;
+}
+div p a{
+    color: green;
+}*/
+
+/**a[href^="mailto:"]{
+    font-family: verdana;
+    color: mediumvioletred;
+}*/
+
+/**.tamaño {
+    height: 60px;
+    width: 100px;
+}
+
+#caja1 {
+    background-color: red;
+    height: 1660px;
+}
+
+#caja2 {
+    background-color: blue;
+    float: left;
+}
+
+#caja3 {
+    background-color: green;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    float: left;
+}
+
+#caja4 {
+    background-color: yellow;
+    /**position: fixed;
+    top: 60px;
+    left: 200px;
+    float: left;
+}*/

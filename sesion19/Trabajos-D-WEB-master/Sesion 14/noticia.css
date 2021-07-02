@@ -1,0 +1,27 @@
+/**Creamos el recuadro*/
+body{
+    border: 1px solid;
+    width: 1286px;
+    height: 325px;
+}
+
+#caja1{
+    background-color: white;
+
+}
+/**Texto*/
+#caja2{
+    background: green;
+    /**margin-left: 5px;*/
+}
+
+#imagen {
+    float: right;
+    margin-left: 10px;
+    /**margin-right: 10px;*/
+}
+#fuente {
+    background-color:yellow;
+    float: right;
+    margin-top: 4px;
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServComputer</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/estiloIndex.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css.css">
+</head>
+<body>
+
+<!-- ------------------------------- Banner -------------------------------- -->
+<header>
+    <div class="contenedorInicio">
+        <div class="caja">
+            <img src="IMG/logo.png" alt="right" width="140" height="120">
+        </div>
+        <div class="caja">
+            <h1 class="tituloPrincipal">ServComputer</h1>
+        </div>
+        <div class="caja" id="btnCI">
+            <a href="Contenido/carrito.html"><img src="IMG/carrito.png" alt="right" width="50" height="50"></a>
+            <button type="button" class="btnIS" data-toggle="modal" data-target="#exampleModalCenter"><img src="IMG/login.png" alt="right" width="50" height="50"></button>
+        </div>
+    </div>
+</header>
+
+<!-- ------------------------------ navegador ------------------------------ -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" id="navitem" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="navitem" href="Contenido/ventasRepuestos.html">Ventas repuestos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="navitem" href="Contenido/servicioTecnico.html">Servicio técnico</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="navitem" href="Contenido/misionVision.html">Misión y Visión</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="navitem" href="Contenido/contactanos.html">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="navitem" href="Contenido/nosotros.html">Nosotros</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!-- ------------------------------ contenido ------------------------------ -->
+<section>
+        <div class="row">
+            <div class="col-sm-4" id="colorOfertas">
+            <div class="card">
+            <img class="card-img-top" src="IMG/repuestoss.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Venta de repuestos</h5>
+                <p class="card-text" id="txt">Adquiere los mejores repuestos para tu portátil o Desktop, con la garantía de marcas originales y un proceso sencillo de compra.</p>
+                <a href="Contenido/ventasRepuestos.html" class="btnIr">ir</a>
+                <br><br>
+            </div>
+            <br>
+            <img class="card-img-top" src="IMG/computadora.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Servicio Tecnico</h5>
+                <p class="card-text" id="txt">Dale a tu equipo, con el servicio tecnico que ofrece servcomputer, y sientete seguro de la mano de especialistas en el area.</p>
+                <a href="Contenido/ventasRepuestos.html" class="btnIr">ir</a>
+            </div>
+            </div>
+            </div>
+            <div class="col-sm-5">
+            <div class="card">
+<!-- ------------------------------- swiper -------------------------------- -->
+                <style>
+                    .cw{
+                    color: #000;
+                    margin: 0;
+                    padding: 0;
+                    }
+            
+                    .swiper-container {
+                    width: 100%;
+                    padding-top: 45px;
+                    padding-bottom: 40px;
+                    }
+            
+                    .swiper-slide {
+                    background-position: center;
+                    background-size: cover;
+                    width: 300px;
+                    height: 300px;
+                    }
+                    </style>
+            
+                <div class="cw">
+                    <div style="height: 2rem;"></div>
+                    <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(img/repuestos/1.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/repuestos/2.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/repuestos/3.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/repuestos/4.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/repuestos/5.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/repuestos/6.jpg)"></div>
+                    </div>                    
+                    <div class="swiper-pagination"></div>
+                    </div>
+                    <div style="height: 4rem;"></div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(img/mantenimiento/1.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/mantenimiento/2.png)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/mantenimiento/3.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/mantenimiento/4.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/mantenimiento/5.jpg)"></div>
+                        </div>                    
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            
+                <script src="js/swiper.min.js"></script>
+             
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                    effect: 'coverflow',
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: 'auto',
+                    coverflowEffect: {
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    },
+            
+                    pagination: {
+                        el: '.swiper-pagination',
+                        },
+                    });
+                </script>
+            </div>
+            </div> 
+<!-- ----------------------------- Fin swiper ------------------------------ -->
+            <div class="col-sm-3" style="text-align: center;" id="colorOfertas">
+                <div class="card" style="width: 100%;" id="colorOfertas">
+                    <div class="card-body">
+                      <h5 class="card-title">Ofertas en Laptops</h5>
+                      <img src="IMG/ofertas/1.png" alt="right" width="90%" height="100%">
+                    </div>
+                </div>
+                <div class="card" style="width: 100%;" id="colorOfertas">
+                    <div class="card-body">
+                      <h5 class="card-title">Ofertas en CPUs</h5>
+                      <img src="IMG/ofertas/2.png" alt="right" width="90%" height="40%">
+                    </div>
+                </div>
+                <div class="card" style="width: 100%;" id="colorOfertas">
+                    <div class="card-body">
+                      <h5 class="card-title">Ofertas en monitores</h5>
+                      <img src="IMG/ofertas/3.png" alt="right" width="90%" height="40%">
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- ------------------------------ pie de página ------------------------------ -->
+<div style="height: 1.5rem; background-color: rgb(49, 228, 117);"></div>
+<footer>
+    <div class="card" id="fondoPP" >
+        <div class="card-body">
+          <div class="row">
+
+            <div class="col-sm-4">
+                <b style="color: rgb(6, 77, 6);">Información:</b>
+                <li>Telefono: 989264698</li>
+                <li>Correo: servicomputer@gmail.com</li>
+                <b><li><a href="Contenido/politicaSeguridad.html" style="color: rgb(16, 151, 16);">Politica de seguridad</a></li></b>
+            </div>
+
+            <div class="col-sm-4">
+                <b style="color: rgb(6, 77, 6);">Redes Sociales:</b>
+                <div class="redes">
+                    <a href="https://www.facebook.com/"><img src="IMG/redesSociales/fb.png" alt="" width="60" height="50"></a>
+                    <a href="https://web.whatsapp.com/"><img src="IMG/redesSociales/ws.png" alt="" width="60" height="50"></a>
+                    <a href="https://www.instagram.com/"><img src="IMG/redesSociales/ins.png" alt="" width="60" height="50"></a>
+                    <a href="https://www.youtube.com/"><img src="IMG/redesSociales/yt.png" alt="" width="60" height="50"></a>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <b style="color: rgb(6, 77, 6);">Enlaces de Intéres:</b>
+                <li><a href="https://www.youtube.com/watch?v=At8z2jlL0t4&feature=youtu.be" style="color: rgb(0, 0, 0);">Video explicativo</a></li>
+                <li><a href="https://www.youtube.com/watch?v=CM0H0Qg2Qak&feature=youtu.be" style="color: rgb(0, 0, 0);">Problemas de PC</a></li>
+                <li><a href="https://www.youtube.com/watch?v=hzImL-5ALSE&feature=youtu.be" style="color: rgb(0, 0, 0);">Pieza de una PC</a></li>
+            </div>
+
+          </div>
+        </div>
+      </div>
+</footer>
+<!-- ------------------------ Modal Iniciar Sesion ------------------------- -->
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modalIS">
+                <div class="fondoAd">
+                <h5 class="modal-title"><img src="img/login.png" alt="" height="35" width="35"> <u>Iniciar Sesion</u> </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                <br>
+                
+                <label for="correo" class="form-label"> Correo electronico:</label> <br>
+                <input type="email" id="correo" class="form-txt1" placeholder="Escriba su correo">
+                <br> 
+
+                <label for="contraseña" class="form-label">Contraseña:</label> <br>
+                <input type="password" id="contraseña" class="form-txt1" placeholder="Escriba su contraseña">
+                <div class="contraseña"><a href="" style="color: rgb(16, 112, 16);">¿Olvidaste tu contraseña?</a></div>
+                
+                
+                <div class="botones">
+                    <button type="button" class="btnIngresar" data-toggle="modal">Iniciar Sesion</button>
+                    <h6>o</h6>
+                    <button type="button" class="facebookbtn" data-toggle="modal">Ingresar con facebook</button>
+                    <h6>¿No tienes cuenta? <a href="" id="registrar">Registrate</a></h3>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>    
+<script src="js/bootstrap.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="JS/inicio.js"></script>
+</body>
+</html>

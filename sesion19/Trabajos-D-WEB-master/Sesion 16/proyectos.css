@@ -1,0 +1,249 @@
+.header {
+    grid-area: header;
+    margin-right: 50px;
+}
+.foto{
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 3px;
+    width:115px;
+    height:120px;
+}
+.login{
+    float: right;
+    margin-top: -150px;
+    margin-right: 10px;
+    color: black;
+}
+#menus{
+    background: rgb(131, 224, 224);
+    margin-top: auto;
+    float: right;
+    height: 450px;
+    display: flex;
+    justify-content: space-around; 
+    padding-right: 100px;
+    padding-left: 25px;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+#menu1{
+    float: right;
+    background-color: cyan;
+    margin-right: -200px;
+    margin-top:15px ;
+    width: 200px; 
+    height: 140px;
+    max-width: 180%;
+ 
+}
+#menu2{
+    float: right;
+    margin-top: 165px;
+    margin-right: -100px;
+    background-color: cyan;
+    width: 200px;
+    height: 170px;
+    max-width: 180%;
+
+}
+
+.input-contenedor{
+    margin-left: 100px;
+    margin-top: -18px;
+   background-position-x: darkblue;
+}
+.contenedor{
+    margin-top: 10px;
+    
+}
+
+#botones{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.button1{
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    background:  rgb(57, 147, 177);
+    
+}
+.button2{
+    margin-left: 55px;
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    background:  rgb(57, 147, 177);
+}
+.button3{
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    background:  rgb(57, 147, 177);
+    margin-left: 40px;
+}
+.button4{
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    background:  rgb(57, 147, 177);
+    margin-left: 45px;
+}
+.button5{
+    border: none;
+    border-radius: 10px;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    background:  rgb(57, 147, 177);
+    margin-left: 45px;
+  
+}
+
+#caja1{
+    background-color: aquamarine;
+    height: 130px;
+}
+
+#nombres{
+    height: 150px;
+    width: 500px;
+    max-width: 100vh;
+    margin-left: 130px;
+    margin-top: -110px;
+   
+}
+.nav ul li{
+    color: white;
+    display: inline;
+    padding: 60px;
+    
+}
+.nav ul li a{
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav{
+    background-color: black;
+    height: 50px;
+    margin-top: -20px;
+}
+
+#colum1 {
+    margin-left: -160px;
+}
+#colum2 {
+    margin-left: -120px;
+}
+#colum3 {
+    margin-left: -120px;
+}
+#colum4 {
+    margin-left: -120px;
+    margin-right: 250px;
+}
+.table,td,th{
+   border: 2px solid black;    
+}
+#logos{
+    margin-left: 50px;
+    margin-top: -15px ;
+}
+.logos1{
+    max-width: 150px;
+    height: 100px;
+    border: 1px solid;
+    
+}
+.logos2{
+    max-width: 150px;
+    height: 100px;
+    border: 1px solid;
+    margin-left: 10px;
+}
+.logos3{
+    max-width: 150px;
+    height: 100px;
+    border: 1px solid;
+    margin-left: 10px;
+}
+.logos4{
+    max-width: 150px;
+    height: 100px;
+    border: 1px solid;
+    margin-left: 10px;
+}
+.logos5{
+    max-width: 150px;
+    height: 100px;
+    border: 1px solid;
+    margin-left: 10px;
+    
+}
+#bloque1{
+    margin-left: 50px;
+}
+.texto{
+    text-align: justify;
+}
+.grid1 ,.grid2 ,.grid3, .grid4, .grid5{
+    color: black;
+    font-style: italic;
+}
+.grid2{
+    margin-top: -46px;
+    margin-left: 170px;
+}
+.grid3{
+    margin-top: -46px;
+    margin-left: 340px;
+}
+.grid4{
+    margin-top: -46px;
+    margin-left: 510px;
+}
+.grid5{
+    margin-top: -46px;
+    margin-left: 680px;
+}
+#grids{
+    margin-left: 50px;
+}
+.footer{
+    background-color: cyan;
+    color: black;
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 100px;
+    height: 150px;
+    margin-top: 190px;
+    position: absolute;
+    width: 91%;
+}
+.footer img{
+    margin: 20px;
+}
+#final{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 340px;
+    width: 98.7%;
+    height: auto;
+    position: absolute;
+   
+}
+

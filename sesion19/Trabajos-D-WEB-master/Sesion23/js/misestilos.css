@@ -1,0 +1,31 @@
+span{
+    width: 180px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+.nom{
+    background-color: darkgray;
+
+}
+.titu{
+    background-color: #0df39b;
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+
+}
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#contenedor{
+    width: 560px;
+    margin: auto;
+    background-color: rgb(79, 150, 76);
+    padding-left: 10px;
+    font-family: calibri;
+}

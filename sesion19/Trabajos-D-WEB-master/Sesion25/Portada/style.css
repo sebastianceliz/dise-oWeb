@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+}
+
+#cover {
+    background: #222 url(../img/fotopor.jpg) center no-repeat;
+    color:black;
+    height: 100%;
+    text-align: center;
+    display: inline-flexbox;
+    align-items: center;
+    
+}
+.modal-body{
+    font-size: 20px;
+    
+}
+
+#cover-texto {
+    width: 100%;
+    font-family: bold;
+    padding-top: 250px;
+}
+#cover-texto2 {
+    width: 100%;
+    font-family: bold;
+    font-size: 30px;
+}
+#imagen{
+    width: 50px;
+    height: 20px;
+    background-color:red;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+#display-3 {
+    color: black;
+}

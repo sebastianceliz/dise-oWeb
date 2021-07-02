@@ -1,0 +1,136 @@
+.header {
+    grid-area: header;
+    margin-right: 50px;
+}
+.login{
+    float: right;
+    margin-top: -150px;
+    margin-right: 10px;
+    color: black;
+}
+#menus{
+    background: rgb(131, 224, 224);
+    margin-top: auto;
+    float: right;
+    height: 600px;
+    display: flex;
+    justify-content: space-around; 
+    padding-right: 100px;
+    padding-left: 25px;
+    margin-right: auto;
+    position: relative;
+}
+
+#menu1{
+    float: right;
+    background-color: cyan;
+    margin-right: -200px;
+    margin-top:15px ;
+    width: 200px; 
+    height: 140px;
+    max-width: 180%;
+}
+#menu2{
+    float: right;
+    margin-top: 165px;
+    margin-right: -100px;
+    background-color: cyan;
+    width: 200px;
+    height: 170px;
+    max-width: 180%;
+}
+.table,td,th{
+    border: 1px solid brown; 
+} 
+
+.subtitulos{
+    color: blue;
+    font-style: italic;
+}
+.input-contenedor{
+    margin-left: 100px;
+    margin-top: -18px;
+   background-position-x: darkblue;
+}
+.contenedor{
+    margin-top: 10px;
+    
+}
+
+#caja1{
+    background-color: aquamarine;
+    height: 130px;
+    margin-top: 120px;
+}
+
+#nombres{
+    
+    height: 150px;
+    width: 500px;
+    max-width: 100vh;
+    margin-left: 130px;
+    margin-top: -110px;
+   
+}
+.nav ul li{
+    color: white;
+    display: inline;
+    padding: 60px;
+    
+}
+.nav ul li a{
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav{
+    background-color: black;
+    height: 50px;
+    margin-top: -20px;
+}
+
+.footer{
+    background-color: cyan;
+    color: black;
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 100px;
+    height: 150px;
+    margin-top: 10px;
+    position: absolute;
+    width: 91%;
+}
+.footer img{
+    margin: 20px;
+
+}
+#colum1 {
+    margin-left: -160px;
+}
+#colum2 {
+    margin-left: -120px;
+}
+#colum3 {
+    margin-left: -120px;
+}
+#colum4 {
+    margin-left: -120px;
+    margin-right: 250px;
+}
+
+#bloque1{
+    margin-left: 50px;
+}
+.texto{
+    text-align: justify;
+}
+#final{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 98.7%;
+    height: auto;
+    position: absolute;
+    margin-top: 160px;   
+}
+

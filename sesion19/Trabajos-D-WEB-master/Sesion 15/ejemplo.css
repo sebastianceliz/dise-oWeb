@@ -1,0 +1,52 @@
+/**Selector grupo  .a,.b*/
+.grid {
+    color: gainsboro;
+    margin: 0px auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 50px;
+    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer"
+}
+
+header {
+    grid-area: my-header;
+    background-color: blueviolet;
+}
+
+nav {
+    grid-area: my-nav;
+    background-color: cornflowerblue;
+}
+
+aside {
+    grid-area: my-aside;
+    background-color: darkmagenta;
+}
+
+section {
+    grid-area: my-section;
+    background-color: indigo;
+}
+
+footer {
+    grid-area: my-footer;
+    background-color: darkorchid;
+}
+
+@media ( min-width: 600px ) and ( max-width:1000px ) {
+    .grid{
+        grid-template-columns: 30% 70%;
+    grid-template-rows: 150px 100px 1fr 100px;
+    grid-template-areas: "my-header my-header" "my-nav my-nav" "my-aside my-section" "my-footer my-footer"
+    }
+}
+
+@media ( min-width: 1001px ) {
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas: "my-header my-header my-header" "my-nav my-nav my-nav" " my-nav my-section my-aside" "my-footer my-footer my-footer"
+    }
+}

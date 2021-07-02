@@ -1,0 +1,118 @@
+
+.corazon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%) rotate(-45deg) scale(1);
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+}
+.banda {
+    position: absolute;
+    width: 170%;
+    height: 15%;
+    background-color: white;
+    top: 35%;
+    left: -10px;
+    z-index: 1;
+    text-align: center;
+}
+
+.corazon::before, .corazon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: red;
+    border-color: black;
+}
+
+.corazon::before {
+    left: 50%;
+}
+
+ .corazon::after {
+    top: -50%;
+} 
+
+ .corazon:hover {
+    animation: latir 21s cubic-bezier(.32, 2, .59, 2) infinite;
+}
+@keyframes latir {
+    3% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1);
+    }
+    8% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.2);
+    }
+    13% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.3);
+    }
+    18% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.4);
+    }
+    23% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.5);
+    }
+    28% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.6);
+    }
+    33% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.7);
+    }
+    38% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.8);
+    }
+    43% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(1.9);
+    }
+    48% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2);
+    }
+    53% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.1);
+    }
+    58% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.2);
+    }
+    63% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.3);
+    }
+    68% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.4);
+    }
+    73% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.5);
+    }
+    78% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.6);
+    }
+    83% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.7);
+    }
+    88% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.8);
+    }
+    93% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(2.9);
+    }
+    98% {
+        transform: translate(-50%, -30%) rotate(-45deg) scale(3);
+    }
+}
+
+/* FONDO ANIMADO*/
+/* 
+.animado {
+    width: 50%;
+    transition: all 2s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
+}
+
+.animado:hover {
+ 
+    clip-path: circle(50% at 50% 50%);
+} */

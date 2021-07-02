@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encuesta.css">
+    <title>Encuesta V2</title>
+    <link rel="shortcut icon" href="/Sesion10/img/world.ico">
+</head>
+
+<body>
+    <div id="imagen">
+    <img src="/Sesion10/img/oscar.jpg" alt="Oscar" height="980px" width="400px">
+    </div>
+
+    <div id="caja1">
+    ENCUESTA DE CINE: NOMINADAS AL OSCAR 2018
+    </div>
+    <div id="caja2">
+        <div id="caja3">
+            <h4>Datos Personales</h4>
+        </div>
+
+            <label for="nombre">Nombre</label>
+            <input style="border-radius:8px;margin-left: 35px;width: 200px" type="text" name="nombre" id="nombre"><br> 
+            <br>
+            <label for="apellido">Apellido</label> 
+            <input style="border-radius:8px;margin-left: 30px;width: 200px" type="text" name="apellido" id="apellido"> <br>
+            <br>
+            <label for="dni">DNI</label>
+            <input style="border-radius:8px;margin-left: 60px;width: 200px" type="text" name="dni" id="dni" maxlength="9"> <br>
+            <br>
+            <label for="edad">Edad</label>
+            <input style="border-radius:8px;margin-left: 55px;width: 200px" type="text" name="edad" id="edad" size="2" maxlength="2"> <br>
+            <br> 
+            <label for="sexo">Sexo</label>
+            <select style="border-radius:8px;margin-left: 55px; width: 206px;height: 22px;" name="Sexo" id="Sexo">
+                <option value="Masculino"> M </option>
+                <option value="Femenino"> F </option>
+            </select> <br>
+            
+            <hr style="color:chocolate ;size:10;width: 415px;">
+            
+            <h4 style="margin-bottom: 3px;">Mejor Película</h4>
+            <input type="radio" style="height:14px; width:14px" name="pelicula" value="1"> Lady Bird <br>
+            <input type="radio" style="height:14px; width:14px" name="pelicula" value="2"> La forma del agua <br>
+            <input type="radio" style="height:14px; width:14px" name="pelicula" value="3"> Déjame Salir <br>
+
+            <hr style="color:chocolate ;size:10;width: 415px;">
+
+            <h4 style="margin-bottom: 3px;">Seleccione las películas que no hayas visto</h4>
+            <input type="checkbox" name="pelicula" value="1"> Ford V Ferrari <br>
+            <input type="checkbox" name="pelicula" value="2"> El Irlandés <br>
+            <input type="checkbox" name="pelicula" value="3"> Historia de un matrimonio <br>
+            <input type="checkbox" name="pelicula" value="4"> Parásitos <br>
+            <input type="checkbox" name="pelicula" value="5"> Jojo Rabbit <br>
+            
+        
+            <hr style="color:chocolate ;size:10;width: 415px;">
+
+            <h4 style="margin-bottom: 3px;">Argumento de tu pélicula preferida</h4>
+            <textarea id="argumento" name="argumento" rows="20" cols="55" ></textarea><br>
+                   
+            <hr style="color:chocolate ;size:50;width: 415px;margin-top: 300px;"><br>
+            
+        <div style="text-align: center;"> 
+        <button style="height: 40px;background-color: coral;">Borrar Formulario</button>
+        <button style="height: 40px;width: 120px;background-color: coral;"> Enviar</button>
+
+        </div>
+    </div>
+</body>
+
+</html>

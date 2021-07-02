@@ -1,0 +1,160 @@
+.header {
+    grid-area: header;
+    margin-right: 50px;
+}
+.foto{
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 3px;
+    width:115px;
+    height:120px;
+}
+#caja1{
+    background-color: aquamarine;
+    height: 130px;
+    margin-top: 120px;
+}
+.body{
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 3fr 6fr 2fr;
+    grid-template-areas:
+        "header header header"
+        "nav section aside"
+        "footer footer footer";
+}
+.login{
+    float: right;
+    margin-top: -166px;
+    margin-right: 10px;
+    color: black;
+}
+
+#menus{
+    background: rgb(131, 224, 224);
+    margin-top: -489px;
+    float: right;
+    height: 490px;
+    display: flex;
+    justify-content: space-around; 
+    padding-right: 100px;
+    padding-left: 25px;
+    margin-right: auto;
+    position: relative;
+}
+#menu1{
+    float: right;
+    background-color: cyan;
+    margin-right: -200px;
+    margin-top:15px ;
+    width: 200px; 
+    height: 140px;
+}
+#menu2{
+    float: right;
+    margin-top: 165px;
+    margin-right: -80px;
+    background-color: cyan;
+    width: 200px;
+    height: 170px;
+}
+.foto1{
+    float: right;
+    width:190px;
+    height:150px;
+    margin-top: -1px;
+    margin-right: 300px;
+    margin-left:40px ;
+    border: 1px solid;
+}
+.foto2{
+    float: right;
+    width:190px;
+    height:150px;
+    margin-top: -20px;
+    margin-right: 300px;
+    margin-left:40px ;
+    border: 1px solid;
+}
+.texto{
+    margin-left: 50px;
+   
+}
+#nombres{
+    height: 150px;
+    width: 500px;
+    max-width: 100vh;
+    margin-left: 130px;
+    margin-top: -110px;
+    padding-top:  5px;
+}
+.nav ul li a:hover{
+    background-color: turquoise;
+    font-size: 248%;
+}
+.nav ul li{
+    color: white;
+    display: inline;
+    padding: 60px;  
+}
+.nav ul li a{
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav{
+    background-color: black;
+    height: 50px;
+    margin-top: -20px;
+}
+
+.section{
+    grid-area: section;
+    margin-left: 50px;
+}
+
+/*Responsive*/
+
+.footer{
+    background-color: cyan;
+    color: black;
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 100px;
+    height: 150px;
+    margin-top: auto;
+    position: absolute;
+    width: 91%;
+}
+.footer img{
+    margin: 20px;
+
+}
+#colum1 {
+    margin-left: -160px;
+}
+#colum2 {
+    margin-left: -120px;
+}
+#colum3 {
+    margin-left: -120px;
+}
+#colum4 {
+    margin-left: -120px;
+    margin-right: 250px;
+}
+
+#final{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 98.7%;
+    height: auto;
+    position: absolute;
+    margin-top: 150px;   
+}
+

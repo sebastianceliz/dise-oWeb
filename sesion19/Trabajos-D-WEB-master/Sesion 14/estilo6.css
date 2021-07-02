@@ -1,0 +1,18 @@
+p, strong{
+    border: 1px solid;
+}
+
+/**Creando un acaja*/
+#caja{
+    margin:10px;
+    padding: 10px;
+    background: #f00;
+    border:dashed
+}
+
+#caja2{
+    margin:0px;
+    padding: 10px;
+    background: brown;
+    border: dotted;
+}

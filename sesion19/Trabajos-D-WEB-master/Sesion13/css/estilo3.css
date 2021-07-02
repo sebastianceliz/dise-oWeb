@@ -1,0 +1,8 @@
+/**estilo3*/
+div p{color:blue;}
+div, p{color:green;}
+a {font-size: 20px;}
+a.link {font-size: 30px;}
+div div.capa1, div p.texto{
+    color:red;
+}

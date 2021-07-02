@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Agenda de Contactos V2</title>
+    <meta charset=utf-8>
+    <link rel="stylesheet" href="../Sesion22/js/misestilos.css">
+</head>
+
+<body onload="actualizarDatos()">
+    <div id="contenedor">
+        <header>
+            <h3>Mi Agenda de contactos</h3>
+            <hr>
+        </header>
+        <form>
+            <span>Nombre:</span>
+            <input type="text" placeholder="nombre" id="nombre"><br><br>
+            <span>Num Celular: </span>
+            <input type="text" placeholder="movil" id="movil"><br><br>
+        </form>
+        <hr />
+        <div>
+            <button type="button" onclick="guardarDato()"> Guardar</button>
+            <button type="button" onclick="recuperarDato()"> Recuperar</button>
+            <button type="button" onclick="eliminarDato()"> Eliminar</button>
+            <button type="button" onclick="eliminarTodo()"> Eliminar Todos</button>
+        </div>
+        <hr>
+        <span class="titu">Nombre</span> 
+        <span class="titu">Celular</span><br>
+        <ul id="contactos"></ul>
+    </div>
+    <script type="text/javascript" src="js/miprograma.js"></script>
+</body>
+
+</html>

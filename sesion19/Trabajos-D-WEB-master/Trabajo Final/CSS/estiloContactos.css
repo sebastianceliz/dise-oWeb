@@ -1,0 +1,11 @@
+.bordeR{
+    border: olivedrab;
+    padding: 1rem 2.5rem;
+    text-align: justify;
+}
+
+section{
+    border: olivedrab;
+    background: rgb(207, 238, 145);
+    padding: 2rem 4rem;
+}

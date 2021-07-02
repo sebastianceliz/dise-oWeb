@@ -1,0 +1,26 @@
+.caja1, .caja2, .caja3{
+    border: rgba(36, 138, 36, 0.863) 2px solid;
+    margin: 10px;
+    text-align: justify;
+}
+.contacto{
+    color: rgba(36, 138, 36, 0.863);
+}
+.contacto2{
+    text-align: center;
+}
+.section{
+    padding: 1rem 1em;
+    
+}
+.card-img-top{
+    width: 280px;
+    height: 400px;
+    margin-top: 50px;
+    border: rgba(65, 45, 177, 0.863) 4px solid;
+}
+.tamañoP{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman','Times', serif;
+    margin: 5px;
+}

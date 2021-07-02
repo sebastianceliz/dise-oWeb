@@ -1,0 +1,51 @@
+.btnG{
+    border-radius: 5px;
+    margin-top: 1em;
+    border: none;
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+
+.cuadroST{
+    background-color: rgb(35, 182, 145);
+    height: 100%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
+
+section{
+    padding: 1rem 3rem;
+}
+
+#b1{
+    background-color: rgb(47, 141, 196);
+}
+
+#b1:hover{
+    background-color: teal;
+}
+
+#b2{
+    background-color: rgb(228, 202, 56);
+}
+
+#b2:hover{
+    background-color: rgb(134, 197, 91);
+}
+
+#b3{
+    background-color: rgb(224, 154, 48);
+}
+
+#b3:hover{
+    background-color: tomato;
+}
+
+.btnAdquirir{
+    width: 100%; 
+    margin-left: 0; 
+    background-color: rgb(141, 228, 184);
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}

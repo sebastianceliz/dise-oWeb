@@ -1,0 +1,90 @@
+.header{
+    grid-area: header;
+    background-color: blueviolet;
+    margin-bottom: -5px;
+}
+.nav{
+    grid-area: nav;
+    background-color: gray;
+}
+.section{
+    grid-area: section;
+    background-color: indigo;
+}
+.aside{
+    grid-area: aside;
+    background-color: darkmagenta;
+}
+.footer{
+    grid-area: footer;
+    background-color: darkorchid;
+}
+body{
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('../img/fondo.jpg');
+}
+.contenedor{
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 3fr 6fr 2fr;
+    grid-template-areas:
+        "header header header"
+        "nav section aside"
+        "footer footer footer";
+}
+header img{
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    line-height: 30px;
+}
+.nav li a{
+    color: white;
+}
+article{
+    width: 95%;
+    height: 95%;
+    margin: 3% auto;
+    padding: 3%;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    color: black;
+}
+aside{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+}
+article img{
+    width: 55px;
+    float: left;
+    margin-right: 10px;
+}
+article p{
+    text-align: justify;
+}
+@media (max-width:1000px){
+    .contenedor{
+        grid-template-areas:
+            "header header header"
+            "nav nav nav"
+            "aside section section"
+            "footer footer footer";
+    }
+}
+@media (max-width:600px){
+    .contenedor{
+        grid-template-areas:
+            "header header header"
+            "nav nav nav"
+            "section section section"
+            "aside aside aside"
+            "footer footer footer";
+    }
+}

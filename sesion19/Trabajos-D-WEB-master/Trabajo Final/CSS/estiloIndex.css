@@ -1,0 +1,151 @@
+body{
+    overflow-x: hidden;
+}
+
+/* -------------------------------------------------------------------------- */
+
+header{
+    background-image: url(../IMG/fondobanner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.contenedorInicio{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.caja{
+    width: 40rem;
+    text-align: center;
+}
+
+.tituloPrincipal{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+    font-size: 3.5rem;
+    margin-top: 1.5rem;
+}
+
+#btnCI{
+    margin-top: 2em;
+}
+
+.navbar{
+    background-color: rgb(49, 228, 117);
+    color: black;
+    text-align: center;
+}
+
+#navitem{
+    background-color: rgba(50, 153, 67, 0.788);
+    color: white;
+    min-width: 12em;
+    margin-left: 0.5em;
+}
+
+#navitem:hover{
+    background:  rgba(15, 117, 49, 0.897);
+    text-decoration: none;
+    color: black;
+}
+
+.btnIr{
+    background-color: rgb(32, 218, 87);
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 2rem;
+}
+
+.btnIr:hover{
+    background-color: rgb(27, 129, 58);
+    color: white;
+    text-decoration: none;
+}
+
+#txt{
+    text-align: justify;
+}
+
+#tamaño{
+    width: 2rem;
+}
+
+.row .card{
+    border: none;
+}
+
+#colorOfertas{
+    background-color: rgb(90, 238, 151);
+}
+
+#fondoPP{
+    background-image: url(../IMG/piePg.png);
+    border: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    margin-left: 0%;
+}
+
+.btnIS{
+    background-color: transparent;
+    border: none;
+}
+
+.modalIS{
+    background-image: url(../IMG/fondoIS.jpg);
+    text-align: center;
+}
+
+.fondoAd{
+    padding: 2rem 2rem;
+    background-color: rgba(255, 255, 255, 0.267);
+}
+
+#contraseña{
+    background-color: rgb(232, 243, 247);
+    border: none;
+    border-radius: 9px;
+    height: 2rem;
+    width: 15rem;
+}
+
+#correo{
+    background-color: rgb(232, 243, 247);
+    border: none;
+    border-radius: 9px;
+    height: 2rem;
+    width: 15rem;
+}
+
+#registrar{
+    color: black;
+}
+.btnIngresar{
+    border-radius: 1rem;
+    background-color: rgb(11, 204, 146);
+    padding: 0.5rem 3.5rem;
+    color:  black;
+    font-size: 15px;
+    text-align: center;
+    width: 15rem;
+    height: 2.5rem;
+}
+.facebookbtn{
+    border-radius: 1rem;
+    background-color: rgb(18, 117, 209);
+    padding: 0.5rem 1.5rem;
+    color:black;
+    font-size: 15px;
+    text-align: center;
+    width: 15rem;
+    height: 2.5rem;
+}
+.form-label{
+    text-align: center;
+}

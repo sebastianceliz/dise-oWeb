@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tienda.css">
+    <link rel="icon" href="img/logo.jpeg";>
+    <title>Tienda Mascotas Felices</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar bg-dark" class="deco">
+    <div>
+        <img src="img/logo.jpeg" alt="right" width="100" height="100">
+        <a class="navbar-brand" id="titulo"> <b>Veterinaria</b> </a>
+    </div>
+    
+    <form class="form-inline">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tienda</a>
+            </li>
+          </ul>
+
+      <input class="form-control mr-sm-1" type="search" placeholder="Ingrese lo que buscará" aria-label="search">
+      <button class="btn btn-outline-success my-2 my-sm-0" id="co" type="submit">Buscar</button>
+    </form>
+  </nav>
+
+  <section>
+
+    <div class="row row-cols-1 row-cols-md-2">
+
+      <div class="col mb-4">
+        <div class="card" id="bor2">
+          <div class="card" style="width: 100%;">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2>Productos</h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body" id="scr">
+                    
+                    <div class="row">
+                      <main id="items" class="col-sm-13 row"></main>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  
+                  <form class="form-inline">
+                    <div class="form-group mb-2">
+                      <label for="staticEmail2">Nombre y apellido:</label>
+                    </div>
+                    <div class="form-group mx-sm-2 mb-2">
+                      <label for="inputPassword2" class="sr-only">dato</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Ingrese datos">
+                    </div>
+                   
+                  </form>
+                  
+                  <form class="form-inline">
+                    <div class="form-group mb-2">
+                      <label for="staticEmail2">Correo electronico:</label>
+                    </div>
+                    <div class="form-group mx-sm-2 mb-2">
+                      <label for="inputPassword2" class="sr-only">dato</label>
+                      <input type="text" class="form-control" id="correo" placeholder="Ingrese correo">
+                    </div>
+                   
+                  </form>
+
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card" id="bor">
+ 
+          <div class="card border-success mb-3" id="espa">
+            <div class="card-header border-success" id="tituloCarri">Carrito de compra:</div>
+            <div class="card-body">
+              <ul id="carrito" class="list-group"></ul>
+            </div>
+              <hr>
+              <br>
+              <p class="text-right">Total: <span id="total"></span>&sol;</p>
+              
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary mb-2" id="btn2" onclick="guardarDato()" data-toggle="modal" data-target="#exampleModal">Enviar compra</button>
+      <button type="submit" class="btn btn-primary mb-2" id="btn">Nueva compra</button>
+
+    </div>
+  </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Veterinaria:</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h6>-Nombre y apellido:</h6> 
+            <div id="name"></div>
+            <h6>-Correo electrónico:</h6>
+            <div id="ce"></div>
+            <h6>-Total de la compra:</h6>
+            <div id="costo"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <br> 
+   
+  <footer style="background-color: black;" class="page-footer font-small pt-4"> 
+
+    <div class="container text-center text-md-left">
+
+    <div class="row" id="link">
+
+        <div class="col-md-3 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Datos</h5>
+                <li> <b>Telefono:</b> &nbsp; 996 421 861 </li>
+                <li> <b>correo:</b> &nbsp; cuatropatitas@gmail.com  </li>
+                <li> <b>Direccion:</b> &nbsp; Las Diamelas 130, Chiclayo 14008</li>
+        </div>  
+
+        <div class="col-md-3 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Menú:</h5>
+
+        <ul class="list-unstyled">
+            <li>
+            <a href="index.html">Inicio</a>
+            </li>
+            <li>
+            <a href="tienda.html">Tienda</a>
+            </li>
+        </ul>
+
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-3 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Siguenos en:</h5>
+
+        <ul class="list-unstyled">
+            <li>
+            <img src="img/fb.jpeg" alt="right" width="20" height="20">
+            <a href="#!">Facebook</a>
+            </li>
+            <li>
+            <img src="img/gm.jpeg" alt="right" width="20" height="20">
+            <a href="#!">Gmail</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/productos.js"></script>
+</body>
+</html>

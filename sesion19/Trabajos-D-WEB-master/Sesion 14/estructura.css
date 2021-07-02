@@ -1,0 +1,41 @@
+main{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: yellow;
+    width: 1200;
+    height: 80;
+    float: left;
+
+}
+
+nav{
+    float: left;
+    background-color: green;
+    width: 300px;
+    height: 172px;
+
+}
+
+article{
+    float: left;
+    width: 900px;
+    height: 172;
+    background-color: grey;
+
+}
+p{
+    margin: 15px;
+    text-align: justify;
+}
+
+footer{
+    clear: both;
+    background-color: blue;
+    float: left;
+    width: 1200;
+    height: 50;
+
+}

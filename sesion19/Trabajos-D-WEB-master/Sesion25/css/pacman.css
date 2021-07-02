@@ -1,0 +1,45 @@
+body {
+    background-image: url(../img/laberinto.jpg);
+    background-repeat: no-repeat;
+}
+img{
+    width: 600px; height: 600;
+    background-position: center;
+}
+div {
+    background: orangered;
+    color: white;
+    padding: .10rem .13rem .5rem .13rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name:animar ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animar {
+    0%{
+        left: 0;
+        top: 5rem; }
+    10% {
+        left: 15rem;
+        top: 15rem;
+        color: orangered; }
+    30%{
+        top: 5rem;
+        left: 5rem; 
+        color: white; }
+    60%{
+        top: 5rem;
+        left: 0;
+        color: #9b59b6; }
+    80%{
+        top: 10rem;
+        left: 0;
+        color: #9b59b6; }   
+    100% {
+        top: 0;
+        left: 0;}
+}
+@counter-style{
+    :last-of-type
+}

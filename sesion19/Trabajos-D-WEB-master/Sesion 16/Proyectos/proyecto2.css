@@ -1,0 +1,17 @@
+#caja1{
+    float: right;
+    margin-left: 780px;
+    margin-top: 10px;
+    position: absolute; 
+    /**Agregamos est aposicion para que al imprimir no se mueva el logo*/
+    
+}
+#caja2{
+    text-align: center;
+    background: saddlebrown;
+    width: 860px;
+    color: white;
+    size: 10px;
+    margin-top: 100px;
+
+}

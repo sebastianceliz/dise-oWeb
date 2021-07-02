@@ -1,0 +1,24 @@
+
+.caja1, .caja2, .caja3{
+    border: rgba(36, 138, 36, 0.863) 2px solid;
+    margin: 10px;
+}
+
+.contacto{
+    color: rgba(36, 138, 36, 0.863);
+}
+
+.contacto2{
+    color: rgba(36, 138, 36, 0.863);
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section{
+    padding: 1rem 2em;
+}
+
+.tamañoP{
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+}

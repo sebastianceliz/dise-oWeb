@@ -1,0 +1,36 @@
+
+#tituloTamaño{
+    color: rgb(40, 153, 74);
+    font-size: xx-large;
+    margin-left: 4rem;
+    text-align: center;
+}
+
+#btnEstiloC{
+    background-color: rgb(98, 219, 94);
+    border: none;
+    margin-bottom: 3rem;
+}
+
+#btnEstiloC:hover{
+    background-color: chocolate;
+}
+
+section{
+    padding: 2rem 1rem;
+}
+
+#contorno{
+    background-color: rgb(176, 233, 188);
+    padding: 1rem 1rem;
+    justify-content: center;
+}
+
+.card{
+    margin-left: 8rem;
+}
+
+.btnr{
+    background-color: rgb(62, 165, 62);
+}
+

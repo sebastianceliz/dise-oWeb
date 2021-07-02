@@ -1,0 +1,118 @@
+.contenedor{
+    background-color: gray;
+}
+.fondo{
+    background: gray;
+    border: black solid 2px ;
+}
+.img2{
+ 
+    margin-left: 730px;
+    margin-top: -339px;
+}
+.menu{
+    float: right;
+    margin-top: -360px;
+    border: black solid 2px;
+}
+.texto{
+    text-align: center;
+    font-family: Bold;
+}
+.contenido {
+    margin: 20px;
+  
+}
+.contenido .button {
+   
+    font-weight: bolder;
+    font-size: 20px ;
+  
+}
+.nombre{
+    margin-left: 360px;
+    margin-top: -180px;
+    font-size: 40PX;
+    margin-bottom: -25px;
+    color: green;
+}
+.login{
+    float: right;
+    margin-top: -60px;
+    margin-right: 10px;
+    color: black;
+}
+.ventas .button{
+    margin-left: 5px;
+    background-color: green;
+    color: white;
+    font-size: 150%;
+}
+.servtec .button{
+    margin-left: 30px;
+    background-color: green;
+    color: white;
+    font-size: 150%;
+}
+
+/*Animaciones*/
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 8s infinite alternate linear;
+    
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider {
+    width: 100%;
+}
+@keyframes cambio {
+     0% {margin-left: 35%;}
+    12.5% {margin-left: 35%;}
+
+    25% {margin-left: -60%;}
+    37.5% {margin-left: -60%;}
+
+    50% {margin-left:  -165%;}
+    62.5% {margin-left: -165%;}
+
+    75% {margin-left:   -260%;}
+    87.5% {margin-left: -260%;}
+
+}
+@media screen and (max-width:900px){
+    .contenedor > img{
+        width: 250px;
+    }
+
+    .contenedor > div{
+        width: 40%;
+    }
+
+    .contenedor h2{
+        font-size: 23px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .contenedor .nombre {
+       flex-direction: column-reverse;
+    }
+
+    .contenedor > div{
+        width: 80%;
+    }
+
+}

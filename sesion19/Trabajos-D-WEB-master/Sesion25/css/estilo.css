@@ -1,0 +1,16 @@
+/* .container{
+    border: blue solid 1px;
+    color: blue;
+    background-color: lightgreen;
+    column-rule-color: blue;
+    
+} */
+div{
+    background-color: lightcyan;
+    border: grey solid 2px;
+}
+/* .col-sm{
+    border: black solid 2px;
+    border: black solid 2px;
+    border-collapse: collapse;
+} */

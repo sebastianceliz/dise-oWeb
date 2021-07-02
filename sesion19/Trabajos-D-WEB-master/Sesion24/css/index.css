@@ -1,0 +1,100 @@
+/* Pesudolementos*/
+p::first-letter{
+    font-size: 2rem;
+}
+
+.seudoEle{
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+}
+
+.seudoEle:before {
+    content: 'Hola';
+    background-color: red;
+}
+
+.seudoEle:after {
+    content: 'Perú';
+    background-color: red;
+}
+
+/*Pseudoclases*/
+
+div.hover {
+    background-color: yellow;
+}
+
+a.hover {
+    color: red;
+}
+
+a.focus {
+    color: green;
+}
+a.active {
+    color: hotpink;
+}
+
+.cuadreado {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin-left: 20px;
+}
+
+.rombo {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin-left: 20px;
+    transform: rotate();
+}
+
+.paralelogramo {
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    margin-left: 20px;
+    transform: skew(20deg);
+}
+
+.triangulo {
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid goldenrod;
+}
+
+.circulo1 {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+
+.circulo2 {
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid goldenrod;
+}
+
+.triangulo2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.diamante {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    clip-path: polygon(50% 100%, 100% 40%, 70% 7%, 30% 10%, 0% 40%);
+}

@@ -1,0 +1,52 @@
+body{
+    background-image:linear-gradient(#000000, rgb(20, 31, 184)) ;
+}
+div{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 4px;
+    background-color: blue;
+    color: white;
+    padding: .2rem .3rem 0.5rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes animar{
+    0%{
+        left: 0;
+        top: 0;
+
+    }
+    10%{
+        left: 4rem;
+        top: 0rem;
+        color: blue;
+    }
+    20%{
+        top: 19rem;
+        left: 4rem;
+        color: white;
+    }
+    30%{
+        top: 19rem;
+        left: 1rem;
+        color: white;
+    }
+    40%{
+        top: 17rem;
+        left: 1rem;
+        color: blue;
+    }
+    50%{
+        top: 17rem;
+        left: 2rem;
+        color: blue;
+    }
+    60%{
+        top: 15rem;
+        left: 1rem;
+    }
+}
